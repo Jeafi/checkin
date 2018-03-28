@@ -62,7 +62,7 @@ data = ungzip(data)
 print(data)
 
 url = ''  # 签到的地址
-
+opener.addheaders[2] = ''
 op = opener.open(url)
 
 data = op.read()
